@@ -14,12 +14,12 @@ height: 808px;
    
 }
 .banner-tittle{
-    font-style: 800;
+   font-weight: 800;
 font-size: 55px;
 color: #151414;
 text-align: right;
-padding-top: 90px;
-padding-right: 70px;
+padding-top: 200px;
+padding-right: 190px;
 }
 .banner-des{
     font-weight: 400;
@@ -27,7 +27,7 @@ font-size: 16px;
 text-align: right;
 color: #444343;
 padding-top: 24px ;
-padding-right: 70px;
+padding-right: 190px;
 }
 .btn-main{
    float: right;
@@ -36,11 +36,47 @@ padding-right: 70px;
     font-weight: 600;
 font-size: 20px;
 margin-top: 24px;
-margin-right: 70px;
+margin-right: 190px;
 width: 160px;
 height: 64px;
 background: #F15B22;
 border-radius: 5px;
 border: none;
 
+}
+
+/* content area */
+.content{
+    display: flex;
+}
+.person{
+   margin-top: 100px;
+   margin-right: 90px;
+   margin-left: 250px;
+
+}
+.textleft{
+    margin-top: 280px;
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+li{
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+.content-main{
+    font-weight: 400;
+    font-size: 16px;
+    
+    color: #444343;
+    
+}
+.content-tittle{
+    font-weight: 800;
+    font-size: 35px;
+    color: #151414;
+    margin-bottom: 20px;
 }
